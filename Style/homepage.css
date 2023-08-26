@@ -1,0 +1,372 @@
+@font-face {
+    font-family: 'Florentino';
+    src: url('/Style/HV Florentino/Regular/HV\ Florentino\ Regular.ttf');
+}
+
+body {
+    background-color: #C9C9BF;
+}
+
+nav#navBar {
+    font-family: 'Florentino';
+    position: fixed;
+    height: 120px;
+    width: 100%;
+    transition: all 1500ms ease;
+
+    z-index: 2000;
+}
+
+div.navBarLogo {
+    position: absolute;  
+    background-image: url('img/embleemInk.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 80%;
+    width: 15%;
+    bottom: 0;
+    left: 20px;
+}
+
+div.navBarDiv {
+    position: absolute;
+    left: 15%;
+    height: 100%;
+    width: 35%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        " naam  ons  iets ";
+}
+
+a#navBarOne, a#navBarTwo, a#navBarThree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: end;
+    grid-area: naam;
+    bottom: 0px;
+    text-decoration: none;
+    color: black;
+}
+a#navBarOne:hover, a#navBarTwo:hover, a#navBarThree:hover {
+    color: white;
+}
+a#navBarTwo {
+    display: flex;
+    grid-area: ons;
+}
+a#navBarThree {
+    display: flex;
+    grid-area: iets;
+}
+
+
+span#stripeOne {
+    position: absolute;
+    font-weight:900;
+    font-size: 1.5em;
+    left: 53.5%;
+    bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 
+header.scroll-up{
+    transform: translateY(0);
+}
+
+header.scroll-down{
+    transform: translateY(-100%);
+} */
+
+
+.scroll-nav {
+    transform: translateY(-20%);
+}
+
+.scroll-nav.hidden {
+    opacity: 0;
+    transform: translateY(-100%);
+}
+
+
+
+div.topContainer {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    height: 650px;
+}
+
+
+div.topContainerLogo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('img/ORMIBlack.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 200px;
+    z-index: 1000;
+}
+
+div.topContainerImageRight {
+    position: absolute;
+    background-image: url('img/vrouwZitNog.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 0px;
+    left: 500px;
+    height: 300px;
+    width: 200px;
+}
+
+span#stripe {
+    position: absolute;
+    font-weight:900;
+    font-size: 1.5em;
+    margin-left: 675px;
+    margin-top: 80px;
+
+}
+div.topContainerQuoteRight {
+    position: absolute;
+    background-image: url('img/FVV_GAELLE\ LADAS_BASELINE\ STRIPE_INK.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 40px;
+    right: 0;
+    height: 100px;
+    width: 180px;
+}
+
+
+div.topContainerImageLeft {
+    position: absolute;
+    background-image: url('img/vrouwZit.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 200px;
+    height: 450px;
+    width: 300px;
+}
+
+div.topContainerTextCenter {
+    position: absolute;
+    left: 500px;
+    top: 500px;
+    width: 600px;
+}
+
+span#Intake {
+    margin-top: 20px;
+    text-decoration: underline 2px;
+    line-height: 2em;
+    color: black;
+    width: auto;
+}
+span#Intake:hover {
+    color: #f2f2f2;
+}
+
+div.spacer {
+    width: 100%;
+    height: 150px;
+}
+
+div.containerMiddle {
+    font-family: 'Florentino';
+    width: 60%;
+    margin: auto;
+    height: 600px;
+    justify-content: center;
+    position: relative;
+    display: flex;
+}
+
+div.containerMiddleHeader {
+    font-family: 'Florentino';
+    word-spacing: 0;
+    font-size: 3.5em;
+    text-align: center;
+    z-index: 1000;
+}
+
+.italic {
+    font-style: italic;
+}
+
+div.containerMiddleImageRight {
+    position: absolute;
+    background-image: url('img/sittingAround.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width: 270px;
+    left: 550px;
+    top: 140px;
+}
+
+div.textLeftContainer {
+    position: absolute;
+    height: 200px;
+    width: 350px;
+    left: 100px;
+    bottom: 100px;
+    /* background-color: black; */
+}
+p#workshop {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em;
+    /* color: white; */
+}
+span#line {
+    /* color: white; */
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    position: absolute;
+    top: 45px;
+}
+p#workshopText {
+    width: 300px;
+    font-size: 1em;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+a#fuckingClickMe {
+    position: absolute;
+    z-index: 1000;
+    left: 295px;
+    bottom: 0px;
+}
+
+div.containerBottom {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    height: 650px;
+}
+
+div.containerBottomLeftImage {
+    position: absolute;
+    background-image: url('img/leavesWoman.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
+    width: 613px;
+    left: 0;
+    bottom: -180px;
+}
+
+div.containerBottomCenterText {
+    position: absolute;
+    /* background-color: white; */
+    height: 400px;
+    width: 700px;
+    left: 650px;
+    top: 150px;
+}
+
+div.containerBottomChild {
+    position: absolute;
+    top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "one two";
+    /* background-color: beige; */
+    width: 100%;
+    height: auto;
+    justify-items: left;
+}
+
+h1 {
+    font-family: 'Florentino';
+}
+
+p#bottomTextOne {
+    grid-area: one;
+    height: 100%;
+    width: 80%;
+}
+
+p#bottomTextTwo {
+    grid-area: two;
+    height: 100%;
+    width: 80%;
+}
+
+span#info {
+    position: absolute;
+    margin-top: 20px;
+    text-decoration: underline 2px;
+    line-height: 2em;
+    color: black;
+    width: auto;
+    bottom: 80px;
+    font-size: 1.1em;
+    font-weight: lighter;
+}
+span#info:hover {
+    color: #f2f2f2;
+}
+
+footer {
+    background-color: #282D2B;
+    height: 180px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        " . coach  mail . image ";
+    /* background-color: beige; */
+    width: 100%;
+    justify-items: right;
+    align-items: center;
+
+}
+
+p#coach {
+    grid-area: coach;
+    display: flex;
+    height: 100px;
+    width: 300px;
+    font-family: 'Florentino';
+    justify-items: center;
+    align-items: center;
+    margin-right: -50px;
+}
+p#coach:hover {
+    color: #C9C9BF;
+}
+p#mail {
+    grid-area: mail;
+    display: flex;
+    height: 100px;
+    width: 300px;
+    margin-right: 100px;
+    font-family: 'Florentino';
+    justify-items: center;
+    align-items: center;
+}
+p#mail:hover {
+    color: #C9C9BF;
+}
+
+div#footerImage {
+    grid-area: image;
+    background-image: url('img/FVV_GAELLE\ LADAS_EMBLEEM_STONE.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80px;
+    width: 80px;
+    margin-right: 50px;
+}

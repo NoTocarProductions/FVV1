@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'Florentino';
-    src: url('./Style/HV Florentino/Regular/HV\ Florentino\ Regular.ttf'); format('ttf');
-         url('./Style/HV Florentino/Regular/HV\ Florentino\ Regular.otf') format('otf');
-         url('./Style/HV Florentino/Regular/HV\ Florentino\ Regular.woff') format('woff');
+    src: url('./Style/HV Florentino/Regular/HV\ Florentino\ Regular.ttf') format('ttf'),
+         url('./Style/HV Florentino/Regular/HV\ Florentino\ Regular.otf') format('otf'),
+         url('./Style/HV Florentino/Regular/HV\ Florentino\ Regular.woff') format('woff'),
          url('./Style/HV Florentino/Regular/HV\ Florentino\ Regular.woff2') format('woff2');
 }
 
